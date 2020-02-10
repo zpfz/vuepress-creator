@@ -19,11 +19,11 @@ npm i vuepress-creator -g
 ```
 # Usage
 Please upgrade the template when you use it for **the first time**:
-```sh
+```
 vuepress-creator upgrade -t
 ```
 Then run the following statement to create the project:
-```sh
+```
 vuepress-creator init <project>
 ```
 See here for more details : [https://zpfz.github.io/vuepress-creator/](https://zpfz.github.io/vuepress-creator/)
