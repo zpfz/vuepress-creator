@@ -1,0 +1,43 @@
+{
+  "name": "vuepress-creator",
+  "version": "1.1.0",
+  "description": "A lightweight creator for VuePress project.",
+  "main": "index.js",
+  "bin": {
+    "vuepress-creator": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "zpfz/vuepress-creator",
+  "bugs": "https://github.com/zpfz/vuepress-creator/issues",
+  "keywords": [
+    "vuepress",
+    "cli",
+    "vuepress-cli",
+    "starter",
+    "vuepress-starter",
+    "creator",
+    "vuepress-creator",
+    "docs",
+    "vuepress-docs",
+    "generator",
+    "documentation",
+    "blog"
+  ],
+  "author": "Feng L.H.",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.7.3",
+    "inquirer": "^7.0.4",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
