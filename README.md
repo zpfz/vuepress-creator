@@ -4,13 +4,12 @@
 
 A lightweight creator for VuePress project.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) ![Release](https://img.shields.io/badge/release-v1.1.0-blue?style=flat-square) ![Version](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)
+![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/zpfz/vuepress-creator?style=flat-square&color=orange)  ![Version](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square&color=blue)
 
 </div>
 
 # Features
 - Devote one's energy to writing, instead of wasting time building the writing environment.
-- Two optional dependencies: VuePress and Less. But in fact, you can install more dependencies.
 - Optimize parts of styles.
 
 # Installation
@@ -18,12 +17,8 @@ A lightweight creator for VuePress project.
 npm i vuepress-creator -g
 ```
 # Usage
-Please upgrade the template when you use it for **the first time**:
+Run the following cmdline to create the project:
 ```
-vuepress-creator upgrade -t
-```
-Then run the following statement to create the project:
-```
-vuepress-creator init <project>
+vuepress-creator init myproject
 ```
 See here for more details : [https://zpfz.github.io/vuepress-creator/](https://zpfz.github.io/vuepress-creator/)
