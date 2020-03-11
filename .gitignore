@@ -55,19 +55,17 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.prettierrc
 .git
 .vscode
 .env
 .idea
 .DS_Store
 dist
-lib
 es
 _site
-yarn.lock
-package-lock.json
 /coverage
 
 # useless files
 .bak
-templete
+template
