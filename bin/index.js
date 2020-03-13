@@ -60,7 +60,7 @@ program
 				if (!exists) {
 					const templatePath = path.resolve(__dirname, '../template')
           const processPath = process.cwd()
-          const targetPath = `${processPath}\\${project}`
+          const targetPath = `${processPath}/${project}`
 					fsextra.pathExists(templatePath).then(exists => {
 						if (exists) {
 							compileAction(project,templatePath,targetPath,{theme:null}).then(() => {
@@ -97,8 +97,8 @@ program
       if (!exists) {
         const templatePath = path.resolve(__dirname, '../template')
         const processPath = process.cwd()
-        const targetPath = `${processPath}\\${project}`
-        const stylePath = `${processPath}\\${project}\\docs\\.vuepress\\styles`
+        const targetPath = `${processPath}/${project}`
+        const stylePath = `${processPath}/${project}/docs/.vuepress/styles`
         fsextra.pathExists(templatePath).then(exists => {
           if (exists) {
             compileAction(project,templatePath,targetPath,{theme:'antdocs'}).then(() => {
@@ -152,8 +152,8 @@ program
           let _theme = answers.theme == 'Default' ? null:'antdocs'
           const templatePath = path.resolve(__dirname, '../template')
           const processPath = process.cwd()
-          const targetPath = `${processPath}\\${project}`
-          const stylePath = `${processPath}\\${project}\\docs\\.vuepress\\styles`
+          const targetPath = `${processPath}/${project}`
+          const stylePath = `${processPath}/${project}/docs/.vuepress/styles`
           switch (_theme){
             case null:
               fsextra.pathExists(templatePath).then(exists => {
